@@ -1,8 +1,8 @@
 const React = require('react')
 const Default = require('./layouts/default')
 
-function Index({ breads }) {
-    const display = breads.map((bread, i) => {
+function Index({ bread }) {
+    const display = bread.map((bread, i) => {
       return (
         <li key={i}>
         <a href= {`/breads/${i}`}>{bread.name}</a>
