@@ -8,7 +8,7 @@ function New() {
         <div className='homeBtn'>
             <a href='/breads'>
               <button>
-              Home
+                Home
               </button>
             </a>
         </div>
